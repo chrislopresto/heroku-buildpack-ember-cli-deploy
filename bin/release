@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "Ember CLI Deploy buildpack release - nothing to see here" && exit 0

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -f $1/package.json ]; then
+  echo "Ember CLI Deploy buildpack detect - yup" && exit 0
+else
+  echo "Ember CLI Deploy buildpack detect - nope" && exit 1
+fi

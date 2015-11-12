@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+npm install -g bower
+npm install -g ember-cli
+
+echo "Ember CLI Deploy buildpack compile - done" && exit 0

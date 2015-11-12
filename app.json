@@ -1,0 +1,10 @@
+{
+  "name": "Ember CLI Deploy",
+  "description": "A buildpack for use with Ember CLI Deploy",
+  "repository": "https://github.com/chrislopresto/heroku-buildpack-ember-cli-deploy",
+  "logo": "http://emberjs.com/images/logos/ember-logo.png",
+  "keywords": ["ember", "ember.js", "ember-cli", "ember-cli-deploy"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/chrislopresto/heroku-buildpack-ember-cli-deploy.git"
+  }
+}
